@@ -11,4 +11,4 @@ Rammstain_Sonne.mp3
 
 Вывод: КИНО_Кукушка.mp3
 '''
-ls | grep "КИНО" | grep ".mp3" | grep -vi "remix"
+find -iname "кино*.mp3" -a ! -iname "*remix*"
